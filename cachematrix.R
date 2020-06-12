@@ -1,5 +1,5 @@
 
-#---makeCacheMatrix 
+#--makeCacheMatrix 
 #The following function can be used to create a matrix object. The function will request the matrix, gets and as well
 #sets the inverse of the specific matrix. The product is a list of functions.
 makeCacheMatrix <- function(x = matrix()){
@@ -18,7 +18,7 @@ makeCacheMatrix <- function(x = matrix()){
 }
 
 
-#---cacheSolve
+#--cacheSolve
 #The "cacheSolve" function as seen below, computes the inverse of the cached matrix object. When the matrix isn't NULL, 
 #a "getting cached data" message is returned whereafter it will return the inverse of the matrix. 
 cacheSolve <- function(x, ...){
